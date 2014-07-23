@@ -1,0 +1,21 @@
+<can:candyBox xmlns:can="http://example.com/candies">
+  <!--1 or more repetitions:-->
+  <candy>
+    <name>Korovka</name>
+    <energy>100</energy>
+    <type>Waffle</type>
+    <ingredients>
+      <water>100.00</water>
+      <sugar>150.00</sugar>
+      <fruit>50.00</fruit>
+      <chocolate>0.00</chocolate>
+      <vanilla>20.00</vanilla>
+    </ingredients>
+    <value>
+      <protein>0.00</protein>
+      <fat>170.00</fat>
+      <carbohydrates>230.00</carbohydrates>
+    </value>
+    <production>Russia</production>
+  </candy>
+</can:candyBox>

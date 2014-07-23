@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://example.com/candies"
+           xmlns="http://example.com/candies">
+    <xsd:complexType name="candyIngredients">
+        <xsd:sequence>
+            <xsd:element name="water" type="xsd:decimal"/>
+            <xsd:element name="sugar" type="xsd:decimal"/>
+            <xsd:element name="fruit" type="xsd:decimal"/>
+            <xsd:element name="chocolate" type="xsd:decimal"/>
+            <xsd:element name="vanilla" type="xsd:decimal"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://example.com/candies"
+            xmlns="http://example.com/candies">
+    <xsd:complexType name="candyValue">
+        <xsd:sequence>
+            <xsd:element name="protein" type="xsd:decimal"/>
+            <xsd:element name="fat" type="xsd:decimal"/>
+            <xsd:element name="carbohydrates" type="xsd:decimal"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>
