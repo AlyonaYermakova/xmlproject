@@ -5,17 +5,36 @@
     <energy>100</energy>
     <type>Waffle</type>
     <ingredients>
-      <water>100.00</water>
-      <sugar>150.00</sugar>
-      <fruit>50.00</fruit>
+      <water>50.00</water>
+      <sugar>70.00</sugar>
+      <fruit>60.00</fruit>
       <chocolate>0.00</chocolate>
-      <vanilla>20.00</vanilla>
+      <vanilla>30.00</vanilla>
     </ingredients>
     <value>
-      <protein>0.00</protein>
-      <fat>170.00</fat>
-      <carbohydrates>230.00</carbohydrates>
+      <protein>20.00</protein>
+      <fat>40.00</fat>
+      <carbohydrates>40.00</carbohydrates>
     </value>
     <production>Russia</production>
   </candy>
+
+    <candy>
+        <name>Chocodance</name>
+        <energy>100</energy>
+        <type>Caramel</type>
+        <ingredients>
+            <water>100</water>
+            <sugar>100</sugar>
+            <fruit>100</fruit>
+            <chocolate>100</chocolate>
+            <vanilla>100</vanilla>
+        </ingredients>
+        <value>
+            <protein>100</protein>
+            <fat>100</fat>
+            <carbohydrates>100</carbohydrates>
+        </value>
+        <production>USA</production>
+    </candy>
 </can:candyBox>

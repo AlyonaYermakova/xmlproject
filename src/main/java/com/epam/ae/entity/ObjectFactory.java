@@ -1,10 +1,7 @@
 
 package com.epam.ae.entity;
 
-import javax.xml.bind.JAXBElement;
-import javax.xml.bind.annotation.XmlElementDecl;
 import javax.xml.bind.annotation.XmlRegistry;
-import javax.xml.namespace.QName;
 
 
 /**
@@ -24,7 +21,6 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _CandyBox_QNAME = new QName("http://example.com/candies", "candyBox");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.epam.ae.entity
@@ -34,44 +30,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CandyList }
-     * 
-     */
-    public CandyList createCandyList() {
-        return new CandyList();
-    }
-
-    /**
      * Create an instance of {@link CandyValue }
      * 
      */
     public CandyValue createCandyValue() {
         return new CandyValue();
-    }
-
-    /**
-     * Create an instance of {@link Candy }
-     * 
-     */
-    public Candy createCandy() {
-        return new Candy();
-    }
-
-    /**
-     * Create an instance of {@link CandyIngredients }
-     * 
-     */
-    public CandyIngredients createCandyIngredients() {
-        return new CandyIngredients();
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CandyList }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://example.com/candies", name = "candyBox")
-    public JAXBElement<CandyList> createCandyBox(CandyList value) {
-        return new JAXBElement<CandyList>(_CandyBox_QNAME, CandyList.class, null, value);
     }
 
 }
