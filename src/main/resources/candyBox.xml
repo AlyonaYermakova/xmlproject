@@ -1,23 +1,23 @@
 <can:candyBox xmlns:can="http://example.com/candies">
-  <!--1 or more repetitions:-->
-  <candy>
-    <name>Korovka</name>
-    <energy>100</energy>
-    <type>Waffle</type>
-    <ingredients>
-      <water>50.00</water>
-      <sugar>70.00</sugar>
-      <fruit>60.00</fruit>
-      <chocolate>0.00</chocolate>
-      <vanilla>30.00</vanilla>
-    </ingredients>
-    <value>
-      <protein>20.00</protein>
-      <fat>40.00</fat>
-      <carbohydrates>40.00</carbohydrates>
-    </value>
-    <production>Russia</production>
-  </candy>
+    <!--1 or more repetitions:-->
+    <candy>
+        <name>Korovka</name>
+        <energy>100</energy>
+        <type>Waffle</type>
+        <ingredients>
+            <water>50.00</water>
+            <sugar>70.00</sugar>
+            <fruit>60.00</fruit>
+            <chocolate>0.00</chocolate>
+            <vanilla>30.00</vanilla>
+        </ingredients>
+        <value>
+            <protein>20.00</protein>
+            <fat>40.00</fat>
+            <carbohydrates>40.00</carbohydrates>
+        </value>
+        <production>Russia</production>
+    </candy>
 
     <candy>
         <name>Chocodance</name>

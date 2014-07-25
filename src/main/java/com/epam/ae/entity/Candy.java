@@ -1,4 +1,3 @@
-
 package com.epam.ae.entity;
 
 import java.math.BigInteger;
@@ -11,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for Candy complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="Candy">
  *   &lt;complexContent>
@@ -30,17 +29,15 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Candy", namespace = "http://example.com/candies", propOrder = {
-    "name",
-    "energy",
-    "type",
-    "ingredients",
-    "value",
-    "production"
+        "name",
+        "energy",
+        "type",
+        "ingredients",
+        "value",
+        "production"
 })
 public class Candy {
 
@@ -60,11 +57,9 @@ public class Candy {
 
     /**
      * Gets the value of the name property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getName() {
         return name;
@@ -72,11 +67,9 @@ public class Candy {
 
     /**
      * Sets the value of the name property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setName(String value) {
         this.name = value;
@@ -84,11 +77,9 @@ public class Candy {
 
     /**
      * Gets the value of the energy property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigInteger }
-     *     
+     *
+     * @return possible object is
+     * {@link BigInteger }
      */
     public BigInteger getEnergy() {
         return energy;
@@ -96,11 +87,9 @@ public class Candy {
 
     /**
      * Sets the value of the energy property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigInteger }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigInteger }
      */
     public void setEnergy(BigInteger value) {
         this.energy = value;
@@ -108,11 +97,9 @@ public class Candy {
 
     /**
      * Gets the value of the type property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CandyTypes }
-     *     
+     *
+     * @return possible object is
+     * {@link CandyTypes }
      */
     public CandyTypes getType() {
         return type;
@@ -120,11 +107,9 @@ public class Candy {
 
     /**
      * Sets the value of the type property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CandyTypes }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link CandyTypes }
      */
     public void setType(CandyTypes value) {
         this.type = value;
@@ -132,11 +117,9 @@ public class Candy {
 
     /**
      * Gets the value of the ingredients property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CandyIngredients }
-     *     
+     *
+     * @return possible object is
+     * {@link CandyIngredients }
      */
     public CandyIngredients getIngredients() {
         return ingredients;
@@ -144,11 +127,9 @@ public class Candy {
 
     /**
      * Sets the value of the ingredients property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CandyIngredients }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link CandyIngredients }
      */
     public void setIngredients(CandyIngredients value) {
         this.ingredients = value;
@@ -156,11 +137,9 @@ public class Candy {
 
     /**
      * Gets the value of the value property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CandyValue }
-     *     
+     *
+     * @return possible object is
+     * {@link CandyValue }
      */
     public CandyValue getValue() {
         return value;
@@ -168,11 +147,9 @@ public class Candy {
 
     /**
      * Sets the value of the value property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CandyValue }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link CandyValue }
      */
     public void setValue(CandyValue value) {
         this.value = value;
@@ -180,11 +157,9 @@ public class Candy {
 
     /**
      * Gets the value of the production property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getProduction() {
         return production;
@@ -192,11 +167,9 @@ public class Candy {
 
     /**
      * Sets the value of the production property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setProduction(String value) {
         this.production = value;

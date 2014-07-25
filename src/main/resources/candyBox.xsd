@@ -3,7 +3,7 @@
             targetNamespace="http://example.com/candies"
             xmlns="http://example.com/candies">
     <xsd:include schemaLocation="Candy.xsd"/>
-    
+
     <xsd:element name="candyBox" type="CandyList"/>
     <xsd:complexType name="CandyList">
         <xsd:sequence>

@@ -1,4 +1,3 @@
-
 package com.epam.ae.entity;
 
 import java.util.ArrayList;
@@ -11,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for CandyList complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="CandyList">
  *   &lt;complexContent>
@@ -25,12 +24,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CandyList", namespace = "http://example.com/candies", propOrder = {
-    "candy"
+        "candy"
 })
 public class CandyList {
 
@@ -39,25 +36,23 @@ public class CandyList {
 
     /**
      * Gets the value of the candy property.
-     * 
-     * <p>
+     * <p/>
+     * <p/>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
      * This is why there is not a <CODE>set</CODE> method for the candy property.
-     * 
-     * <p>
+     * <p/>
+     * <p/>
      * For example, to add a new item, do as follows:
      * <pre>
      *    getCandy().add(newItem);
      * </pre>
-     * 
-     * 
-     * <p>
+     * <p/>
+     * <p/>
+     * <p/>
      * Objects of the following type(s) are allowed in the list
      * {@link Candy }
-     * 
-     * 
      */
     public List<Candy> getCandy() {
         if (candy == null) {

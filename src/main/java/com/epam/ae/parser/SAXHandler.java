@@ -35,7 +35,7 @@ public class SAXHandler extends DefaultHandler {
 
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
-        if (qName.equalsIgnoreCase("candy"))  System.out.print("end candy");
+        if (qName.equalsIgnoreCase("candy")) System.out.print("end candy");
     }
 
     @Override

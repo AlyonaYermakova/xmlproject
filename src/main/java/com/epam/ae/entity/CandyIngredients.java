@@ -1,4 +1,3 @@
-
 package com.epam.ae.entity;
 
 import java.math.BigDecimal;
@@ -10,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for candyIngredients complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="candyIngredients">
  *   &lt;complexContent>
@@ -28,16 +27,14 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "candyIngredients", namespace = "http://example.com/candies", propOrder = {
-    "water",
-    "sugar",
-    "fruit",
-    "chocolate",
-    "vanilla"
+        "water",
+        "sugar",
+        "fruit",
+        "chocolate",
+        "vanilla"
 })
 public class CandyIngredients {
 
@@ -54,11 +51,9 @@ public class CandyIngredients {
 
     /**
      * Gets the value of the water property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @return possible object is
+     * {@link BigDecimal }
      */
     public BigDecimal getWater() {
         return water;
@@ -66,11 +61,9 @@ public class CandyIngredients {
 
     /**
      * Sets the value of the water property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigDecimal }
      */
     public void setWater(BigDecimal value) {
         this.water = value;
@@ -78,11 +71,9 @@ public class CandyIngredients {
 
     /**
      * Gets the value of the sugar property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @return possible object is
+     * {@link BigDecimal }
      */
     public BigDecimal getSugar() {
         return sugar;
@@ -90,11 +81,9 @@ public class CandyIngredients {
 
     /**
      * Sets the value of the sugar property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigDecimal }
      */
     public void setSugar(BigDecimal value) {
         this.sugar = value;
@@ -102,11 +91,9 @@ public class CandyIngredients {
 
     /**
      * Gets the value of the fruit property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @return possible object is
+     * {@link BigDecimal }
      */
     public BigDecimal getFruit() {
         return fruit;
@@ -114,11 +101,9 @@ public class CandyIngredients {
 
     /**
      * Sets the value of the fruit property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigDecimal }
      */
     public void setFruit(BigDecimal value) {
         this.fruit = value;
@@ -126,11 +111,9 @@ public class CandyIngredients {
 
     /**
      * Gets the value of the chocolate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @return possible object is
+     * {@link BigDecimal }
      */
     public BigDecimal getChocolate() {
         return chocolate;
@@ -138,11 +121,9 @@ public class CandyIngredients {
 
     /**
      * Sets the value of the chocolate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigDecimal }
      */
     public void setChocolate(BigDecimal value) {
         this.chocolate = value;
@@ -150,11 +131,9 @@ public class CandyIngredients {
 
     /**
      * Gets the value of the vanilla property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @return possible object is
+     * {@link BigDecimal }
      */
     public BigDecimal getVanilla() {
         return vanilla;
@@ -162,11 +141,9 @@ public class CandyIngredients {
 
     /**
      * Sets the value of the vanilla property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link BigDecimal }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link BigDecimal }
      */
     public void setVanilla(BigDecimal value) {
         this.vanilla = value;

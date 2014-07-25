@@ -3,13 +3,13 @@
             targetNamespace="http://example.com/candies"
             xmlns="http://example.com/candies">
 
-        <xsd:simpleType name="candyTypes">
-            <xsd:restriction base="xsd:string">
-                <xsd:enumeration value="Caramel"/>
-                <xsd:enumeration value="Chocolate"/>
-                <xsd:enumeration value="Waffle"/>
-                <xsd:enumeration value="Toffee"/>
-            </xsd:restriction>
-        </xsd:simpleType>
+    <xsd:simpleType name="candyTypes">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Caramel"/>
+            <xsd:enumeration value="Chocolate"/>
+            <xsd:enumeration value="Waffle"/>
+            <xsd:enumeration value="Toffee"/>
+        </xsd:restriction>
+    </xsd:simpleType>
 
 </xsd:schema>
