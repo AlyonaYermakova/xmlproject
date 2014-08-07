@@ -1,9 +1,7 @@
 package com.epam.ae.runner;
 
-import com.epam.ae.parser.ParserFactory;
-import com.epam.ae.parser.ParserSAX;
-import com.epam.ae.parser.ParserStAX;
-import com.epam.ae.parser.SAXHandler;
+import com.epam.ae.parser.*;
+import com.sun.org.apache.xerces.internal.parsers.DOMParser;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -20,5 +18,9 @@ public class Runner {
         System.out.println("=========StAX Parser=========");
         ParserFactory staxParser = new ParserStAX();
         staxParser.getDatas();
+
+        System.out.println("=========DOM Parser=========");
+        ParserFactory domParser = new ParserDOM();
+        domParser.getDatas();
     }
 }
